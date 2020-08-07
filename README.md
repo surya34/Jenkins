@@ -1,6 +1,6 @@
 # Jenkins
 
-#####setup and run jenkins using docker /podamn containers 
+#######setup and run jenkins using docker /podamn containers 
 
 Create the following volumes to persist the Jenkins data using the following docker volume create commands:
 
