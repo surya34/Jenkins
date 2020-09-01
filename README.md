@@ -44,3 +44,21 @@ The jenkinsci/blueocean Docker image itself. If this image has not already been 
 
 Note: This Docker image could also be downloaded (or updated) independently using the docker image pull command:
 docker image pull jenkinsci/blueocean
+
+
+
+
+
+###############
+
+####If you are using Jenkins, you should consider using Docker dynamic build slaves####
+
+The dynamic slave is a concept of creating a Jenkins agent in the run time rather than keeping it running all the time.
+
+It has some key benefits like,
+
+1. Ephemeral build slaves
+2. Isolated environments for each build (E.g java8, java 11, infra tools, etc.)
+3. Better resource utilization and agent management
+
+And this model is used by many SaaS-based CI/CD tools for the build and deployment purposes.
