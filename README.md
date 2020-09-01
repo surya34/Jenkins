@@ -53,6 +53,8 @@ docker image pull jenkinsci/blueocean
 
 ####If you are using Jenkins, you should consider using Docker dynamic build slaves####
 
+https://devopscube.com/docker-containers-as-build-slaves-jenkins/ 
+
 The dynamic slave is a concept of creating a Jenkins agent in the run time rather than keeping it running all the time.
 
 It has some key benefits like,
